@@ -1,0 +1,31 @@
+:root {
+  --primary--100: #0b132bff;
+  --primary--200: #1c2541ff;
+  --primary--300: #3a506bff;
+  --primary--400: #5bc0beff;
+  --primary--500: #6fffe9ff;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

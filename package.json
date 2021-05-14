@@ -1,0 +1,18 @@
+{
+  "name": "blog-template",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@netulip/rollup-plugin-svg": "0.0.3",
+    "@sveltejs/kit": "next",
+    "glob": "^7.1.7",
+    "gray-matter": "^4.0.3",
+    "marked": "^2.0.3",
+    "svelte": "^3.34.0"
+  },
+  "type": "module"
+}
